@@ -18,7 +18,7 @@
             </div>
         </div>
 
-        <form id="invoiceForm" method="POST" action="invoice_pdf.php">
+        <form id="invoiceForm" method="POST" action="https://favourez.com/ab/invoice_pdf.php">
             <div class="grid md:grid-cols-2 gap-6">
                 <div>
                     <label class="block text-sm font-medium mb-1">Bill To: <span class="text-red-500">*</span></label>
@@ -126,7 +126,7 @@
     </div>
 
     <script>
-        let invoiceCounter = localStorage.getItem('invoiceCounter') || 1;
+        let invoiceCounter = localStorage.getItem('https://favourez.com/ab/invoiceCounter') || 1;
         document.getElementById('invNum').textContent = String(invoiceCounter).padStart(3, '0');
 
         function updateTotals() {
